@@ -27,7 +27,7 @@ export default function Houses() {
   };
 
   return (
-    <div className="py-16 w-full">
+    <div className="pt-16 w-full text-primary">
       <div>
         <h1 className="text-center text-2xl mb-8">
           OUR <span className="font-bold">PROPERTY</span>

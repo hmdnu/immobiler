@@ -1,4 +1,4 @@
-import { Home, Navbar, AboutUs, Houses, Footer } from "./components";
+import { Home, Navbar, AboutUs, Houses, HouseType, Footer } from "./components";
 
 export default function App() {
   return (
@@ -15,6 +15,10 @@ export default function App() {
 
       <section>
         <Houses />
+      </section>
+
+      <section className="main-layout">
+        <HouseType />
       </section>
 
       {/* <Footer />  */}
