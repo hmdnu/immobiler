@@ -14,11 +14,11 @@ export default function AboutUs() {
       </div>
 
       {/* luxury bg */}
-      <div className="mt-28 w-full h-[38rem] bg-no-repeat bg-cover object-bottom bg-[url('/src/assets/images/luxury.png')] relative">
+      <div className="mt-28 w-full h-[38rem] bg-no-repeat bg-cover object-bottom bg-luxury relative">
         <h1 className="text-[10.5rem] text-primary font-black left-2/4 translate-x-[-50%] translate-y-[-50%] absolute">
           LUXURY
         </h1>
-        <div className="w-full h-[38rem] bg-no-repeat bg-cover object-bottom bg-[url('/src/assets/images/luxury.png')] relative">
+        <div className="w-full h-[38rem] bg-no-repeat bg-cover object-bottom bg-luxury relative">
           <h1 className="text-[10.5rem] text-primary font-black left-2/4 translate-x-[-50%] translate-y-[-50%] absolute text-transparent stroke-luxury">
             LUXURY
           </h1>
@@ -27,5 +27,3 @@ export default function AboutUs() {
     </div>
   );
 }
-
-// bg-cover bg-[url('/src/assets/images/luxury.jpg')]

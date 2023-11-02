@@ -12,6 +12,7 @@ export default {
       backgroundImage: {
         "home-base": "url('src/assets/images/bg-home.jpg')",
         "home-masked": "url('src/assets/images/bg-home-masked.png')",
+        luxury: "url('src/assets/images/luxury.png')",
       },
     },
 

@@ -13,11 +13,11 @@ export default function App() {
         <AboutUs />
       </section>
 
-      {/* <section>
+      <section className="main-layout">
         <Houses />
       </section>
 
-      <Footer /> */}
+      {/* <Footer />  */}
     </main>
   );
 }
