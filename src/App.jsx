@@ -13,7 +13,7 @@ export default function App() {
         <AboutUs />
       </section>
 
-      <section className="main-layout">
+      <section>
         <Houses />
       </section>
 

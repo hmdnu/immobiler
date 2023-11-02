@@ -1,8 +1,8 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { house1, house2, house3 } from "../assets/images";
 
 import { imageCarousel } from "../constant";
+import { houses } from "../constant";
 
 export default function Houses() {
   const responsive = {
@@ -28,28 +28,34 @@ export default function Houses() {
 
   return (
     <div className="py-16 w-full">
-      <h1 className="text-center text-2xl mb-8">
-        OUR <span className="font-bold">PROPERTY</span>
-      </h1>
+      <div>
+        <h1 className="text-center text-2xl mb-8">
+          OUR <span className="font-bold">PROPERTY</span>
+        </h1>
+        <Carousel
+          swipeable={true}
+          draggable={true}
+          minimumTouchDrag={100}
+          partialVisible={true}
+          containerClass="container-carousel"
+          responsive={responsive}
+          removeArrowOnDeviceType={["tablet", "mobile"]}
+        >
+          {imageCarousel.map((img, i) => (
+            <div className="pr-5" key={i}>
+              <img draggable={false} src={img.img} alt="image" />
+            </div>
+          ))}
+        </Carousel>
+        <div className="w-full flex justify-center mt-[35px] mb-[60px]">
+          <button className="px-6 py-1 border text-base border-black">MORE</button>
+        </div>
+      </div>
 
-      <Carousel
-        swipeable={true}
-        draggable={true}
-        minimumTouchDrag={100}
-        partialVisible={true}
-        containerClass="container-carousel"
-        responsive={responsive}
-        removeArrowOnDeviceType={["tablet", "mobile"]}
-      >
-        {imageCarousel.map((img, i) => (
-          <div className="pr-5" key={i}>
-            <img draggable={false} src={img.img} alt="image" />
-          </div>
-        ))}
-      </Carousel>
-
-      <div className="w-full flex justify-center mt-[35px]">
-        <button className="px-6 py-1 border text-base border-black">MORE</button>
+      <div className="px-[150px] py-[85px] bg-property bg-cover bg-center bg-no-repeat">
+        <p className="paragraph bg-gradient-to-t from-[rgba(255,255,255,.3)] to-white bg-clip-text text-transparent indent-28 text-justify leading-[50px]">
+          {houses.text.toUpperCase()}
+        </p>
       </div>
     </div>
   );

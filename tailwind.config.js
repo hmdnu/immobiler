@@ -13,6 +13,7 @@ export default {
         "home-base": "url('src/assets/images/bg-home.jpg')",
         "home-masked": "url('src/assets/images/bg-home-masked.png')",
         luxury: "url('src/assets/images/luxury.png')",
+        property: "url('src/assets/images/bg-property.svg')",
       },
     },
 
