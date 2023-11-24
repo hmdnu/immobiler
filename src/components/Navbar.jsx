@@ -7,7 +7,10 @@ export default function Navbar() {
 
   function handleScrollNavbar() {
     const scroll = document.documentElement.scrollTop;
+
     if (scroll === 0) {
+      setView(true);
+    } else if (scroll > 570) {
       setView(true);
     } else {
       setView(false);
@@ -30,7 +33,7 @@ export default function Navbar() {
           <div className="flex gap-2 md:gap-10">
             {navbar.map((nav, i) => (
               <div key={i}>
-                <a href={nav.link} className="text-base">
+                <a href={`#${nav.link}`} className="text-base">
                   {nav.name}
                 </a>
               </div>

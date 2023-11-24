@@ -21,7 +21,7 @@ export default function App() {
         <HouseType />
       </section>
 
-      {/* <Footer />  */}
+      <Footer />
     </main>
   );
 }

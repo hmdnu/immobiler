@@ -7,7 +7,7 @@ export const navbar = [
   },
   {
     name: "ABOUT US",
-    link: "about-us",
+    link: "aboutus",
   },
   {
     name: "CONTACT",
@@ -42,5 +42,9 @@ export const imageCarousel = [
 ];
 
 export const footer = {
-  text: "Immobilier is the French word for real estate. It refers to the buying, selling, and renting of property, as well as the management of property.In other words, immobilier is all about property. It's a big industry in France, and there are many different types of real estate businesses and professionals involved.",
+  text1:
+    "Immobilier is the French word for real estate. It refers to the buying, selling, and renting of property, as well as the management of property.",
+
+  text2:
+    "In other words, immobilier is all about property. It's a big industry in France, and there are many different types of real estate businesses and professionals involved.",
 };

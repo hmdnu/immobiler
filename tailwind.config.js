@@ -14,6 +14,8 @@ export default {
         "home-masked": "url('src/assets/images/bg-home-masked.png')",
         luxury: "url('src/assets/images/luxury.png')",
         property: "url('src/assets/images/bg-property.svg')",
+        footer: "url('src/assets/images/bg-footer.svg')",
+        "house-footer": "url('src/assets/images/bg-contact.png')",
       },
     },
 

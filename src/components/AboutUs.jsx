@@ -2,7 +2,7 @@ import { about } from "../constant";
 
 export default function AboutUs() {
   return (
-    <div className="text-primary">
+    <div id="aboutus" className="text-primary">
       <div className="py-16">
         <h1 className="text-center text-2xl mb-8">
           WHAT IS <span className="font-bold">IMMOBILIER</span>

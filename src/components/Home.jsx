@@ -1,6 +1,9 @@
 export default function Home() {
   return (
-    <div className={`bg-home-base w-full h-[100vh] bg-home bg-no-repeat bg-cover center-layout relative`}>
+    <div
+      id="home"
+      className={`bg-home-base w-full h-[100vh] bg-home bg-no-repeat bg-cover center-layout relative`}
+    >
       <h1 className="text-[10.5rem] font-black text-white">IMMOBILIER</h1>
       <div className={`bg-home-masked w-full h-[100vh] bg-home bg-no-repeat bg-cover absolute center-layout`}>
         <h1 className="text-[10.5rem] font-black text-transparent stroke-home">IMMOBILIER</h1>
